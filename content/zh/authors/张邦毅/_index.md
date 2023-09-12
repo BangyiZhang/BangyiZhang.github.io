@@ -36,7 +36,7 @@ education:
     - course: 计算机科学，理学硕士学位，2022
       institution: 英国纽卡斯尔大学
       #year: 2022
-    - course: 信息管理与信息系统，工学学士学位，2017
+    - course: 信息管理与信息系统，工学学士学位，2021
       institution: 珠海科技学院
       #year: 2021
 
