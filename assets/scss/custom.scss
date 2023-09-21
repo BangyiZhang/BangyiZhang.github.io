@@ -1,0 +1,57 @@
+#profile {
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+}
+
+.avatar {
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
+    .wg-about .avatar {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+
+.avatar-square {
+    border-radius: 3px;
+}
+
+.portrait-title h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000;
+    margin: 20px 0 10px;
+}
+
+.portrait-title h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 0 0 10px;
+}
+
+ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wg-contact li {
+    padding-top: 1.1rem; /* Align text with bottom of `fa-2x` icon. */
+    margin-bottom: 0.3rem;
+  }

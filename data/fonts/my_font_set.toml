@@ -1,0 +1,11 @@
+# Font style metadata
+name = "my_font_set"
+
+# Optional Google font URL
+google_fonts = "family=Martel+Sans:wght@200;300;900&display=swap"
+
+# Font families
+heading_font = "Martel Sans"
+body_font = "Martel Sans"
+nav_font = "Martel Sans"
+mono_font = "Martel Sans"
